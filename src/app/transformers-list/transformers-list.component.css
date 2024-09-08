@@ -1,0 +1,7 @@
+  .striped-row:nth-child(even) {
+    background-color: #cccccc;
+  }
+
+  .striped-row:nth-child(odd) {
+    background-color: #b4b3b3;
+  }
