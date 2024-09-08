@@ -6,8 +6,14 @@ import { GoBackComponent } from "../go-back/go-back.component";
   standalone: true,
   imports: [GoBackComponent],
   template: `
-    <h2>Page Not Found</h2>
-    <p>We couldn't find that page! Maybe on Cybertron.</p>
+  <div class="container d-flex align-items-center justify-content-center mt-3">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="display-4">Page Not Found</h2>
+        <p class="lead">We couldn't find that page! Maybe on Cybertron.</p>
+      </div>
+    </div>
+  </div>
     <app-go-back/>
   `,
   styleUrl: './not-found.component.css'
