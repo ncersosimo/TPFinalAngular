@@ -11,7 +11,7 @@ import { GoBackComponent } from '../go-back/go-back.component';
   imports: [AsyncPipe, GoBackComponent],
   template: `
   @let transformer = (transformer$ | async);
-  <div class="container mt-1">
+  <div class="container mt-2">
     <div class="row justify-content-center mb-4">
       <div class="col-md-6 text-center">
         <img [src]="transformer?.avatar" alt="Transformer Image" class="img-fluid rounded">
